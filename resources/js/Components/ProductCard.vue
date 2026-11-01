@@ -1,7 +1,7 @@
 <script setup>
 import { ArrowRight } from 'lucide-vue-next';
 
-defineProps({
+const props = defineProps({
     product: Object
 });
 
@@ -22,7 +22,7 @@ const badgeColor = (category) => {
         class="product-card bg-white rounded-2xl border border-slate-200/80 p-5 flex flex-col justify-between hover:shadow-lg transition-all">
         <div>
             <div class="relative bg-slate-100 rounded-xl overflow-hidden mb-4 h-48 flex items-center justify-center">
-                <img :src="product.image" :alt="product.name"
+                <img :src="product.image_url" :alt="product.name"
                     class="object-cover h-full w-full hover:scale-105 transition-transform duration-300">
                 <span
                     :class="['absolute top-3 left-3 text-white text-[10px] font-bold px-2.5 py-1 rounded-md uppercase tracking-wider', badgeColor(product.category)]">

@@ -133,7 +133,7 @@ defineExpose({
 
 <template>
     <div
-        :class="['lg:col-span-3 fixed inset-y-0 right-0 z-50 w-full sm:w-96 lg:w-full lg:static lg:z-auto bg-white lg:rounded-2xl border border-slate-200 shadow-2xl lg:shadow-md flex flex-col h-[100vh] lg:h-[calc(100vh-7rem)] lg:sticky lg:top-24 transform transition-transform duration-300', isOpen ? 'translate-x-0' : 'translate-x-full lg:translate-x-0']">
+        :class="['lg:col-span-2 fixed inset-y-0 right-0 z-50 w-full sm:w-96 lg:w-full lg:static lg:z-auto bg-white lg:rounded-2xl border border-slate-200 shadow-2xl lg:shadow-md flex flex-col h-[100vh] lg:h-[calc(100vh-7rem)] lg:sticky lg:top-24 transform transition-transform duration-300', isOpen ? 'translate-x-0' : 'translate-x-full lg:translate-x-0']">
 
         <!-- Chat Header -->
         <div class="bg-blue-600 text-white p-4 lg:rounded-t-2xl flex items-center justify-between shrink-0 shadow-sm">
